@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+/* Scrollbar container */
+.scrollBar::-webkit-scrollbar {
+  width: 6px; /* Scrollbar की चौड़ाई */
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb (moving part) */
+.scrollBar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); /* हल्का ग्रे */
+  border-radius: 10px;
+}
+
+/* Scrollbar track (background) */
+.scrollBar::-webkit-scrollbar-track {
+  background: transparent; /* ट्रैक को ट्रांसपेरेंट कर दिया */
+}
