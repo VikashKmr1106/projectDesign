@@ -88,7 +88,7 @@ const Feed = () => {
 
 			{/* Dynamic Posts Rendering */}
 			{posts.map((post) => (
-				<div key={post.id} className='max-w-md bg-white rounded-lg  mx-auto'>
+				<div key={post.id} className=' bg-white rounded-lg'>
 					{/* Post Header */}
 					<div className='flex items-center justify-between px-4 pt-4'>
 						<div className='flex items-center space-x-3'>
